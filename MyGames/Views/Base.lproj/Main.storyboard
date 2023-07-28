@@ -235,7 +235,7 @@
                                             <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="Cld-Kd-DXR"/>
+                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="9fU-qV-zsh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agc-Ko-PNd">
@@ -249,7 +249,7 @@
                                             <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchUpInside" id="54r-pa-yAA"/>
+                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="wd2-1L-ibg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iu7-JI-e0d">
@@ -263,7 +263,7 @@
                                             <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchUpInside" id="KAl-PS-KcD"/>
+                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="mlh-dX-vHk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9x-zu-IGM">
@@ -277,7 +277,7 @@
                                             <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchUpInside" id="W9y-VR-fBt"/>
+                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="uNG-86-03G"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="veO-dl-MSA">
@@ -291,7 +291,7 @@
                                             <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchUpInside" id="XBn-Bc-vLT"/>
+                                            <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="Ep8-JX-gsU"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -485,7 +485,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="umh-jA-0ZZ"/>
+        <segue reference="Tel-TG-1Ng"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="console" width="23" height="23"/>
