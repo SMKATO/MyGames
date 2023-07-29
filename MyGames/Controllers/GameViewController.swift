@@ -17,8 +17,8 @@ class GameViewController: UIViewController {
     
     var game: Game!
     
-    let fullStarImage = UIImage(named: "fullStar")
-    let emptyStarImage = UIImage(named: "emptyStar")
+    let fullStarImage = UIImage(named: "star-selected")
+    let emptyStarImage = UIImage(named: "star-not-selected")
     
     override func viewDidLoad() {
         super.viewDidLoad()
