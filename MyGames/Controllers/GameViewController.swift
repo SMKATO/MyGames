@@ -17,11 +17,11 @@ class GameViewController: UIViewController {
     
     var game: Game!
     
-    let fullStarImage = UIImage(named: "star-selected")
-    let emptyStarImage = UIImage(named: "star-not-selected")
+    let fullStarImage = UIImage(named: "fullStar")
+    let emptyStarImage = UIImage(named: "emptyStar")
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()  
     }
     
     @IBAction func starButtonTapped(_ sender: UIButton) {
