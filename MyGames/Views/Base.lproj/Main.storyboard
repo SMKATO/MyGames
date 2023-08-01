@@ -224,7 +224,7 @@
                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Oog-dS-qgz">
                                 <rect key="frame" x="40" y="208" width="313" height="54"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siK-RV-crH">
+                                    <button opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siK-RV-crH">
                                         <rect key="frame" x="0.0" y="0.0" width="62.666666666666664" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="aAY-L4-Nlx"/>
@@ -232,7 +232,7 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
+                                            <backgroundConfiguration key="background" image="star-no-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="9fU-qV-zsh"/>
@@ -246,7 +246,7 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
+                                            <backgroundConfiguration key="background" image="star-no-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="wd2-1L-ibg"/>
@@ -260,7 +260,7 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
+                                            <backgroundConfiguration key="background" image="star-no-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="mlh-dX-vHk"/>
@@ -274,7 +274,7 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
+                                            <backgroundConfiguration key="background" image="star-no-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="uNG-86-03G"/>
@@ -288,7 +288,7 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="star-not-selected" imageContentMode="scaleAspectFit"/>
+                                            <backgroundConfiguration key="background" image="star-no-selected" imageContentMode="scaleAspectFit"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="starButtonTapped:" destination="UvU-CP-TI3" eventType="touchDown" id="Ep8-JX-gsU"/>
@@ -490,7 +490,7 @@
     <resources>
         <image name="console" width="23" height="23"/>
         <image name="game" width="23" height="23"/>
-        <image name="star-not-selected" width="55" height="55"/>
+        <image name="star-no-selected" width="1024" height="1024"/>
         <namedColor name="main">
             <color red="0.0" green="0.68199998140335083" blue="0.875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
