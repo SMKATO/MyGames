@@ -23,7 +23,7 @@ class EditViewController: UIViewController {
         let pickerView = UIPickerView()
         pickerView.delegate = self
         pickerView.dataSource = self
-        pickerView.backgroundColor = .systemGray5
+        pickerView.backgroundColor = .backgroundColor
         return pickerView
     }()
     

@@ -23,8 +23,8 @@ class GamesTableViewController: UITableViewController {
         
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
-        searchController.searchBar.tintColor = .white
-        searchController.searchBar.barTintColor  = .white
+        searchController.searchBar.tintColor = .backgroundColor
+        searchController.searchBar.barTintColor  = .backgroundColor
         navigationItem.searchController = searchController
         
         searchController.searchBar.delegate = self
@@ -49,7 +49,7 @@ class GamesTableViewController: UITableViewController {
     func loadGames(filtering: String = "") {
         let fetchRequest: NSFetchRequest<Game> = Game.fetchRequest()
         let sortDescriptor = NSSortDescriptor(key: "title", ascending: true)
-//        let consoledescriptor = NSSortDescriptor(key: "name", ascending: true)
+        let consoledescriptor = NSSortDescriptor(key: "name", ascending: true)
         fetchRequest.sortDescriptors = [sortDescriptor]
         
         if !filtering.isEmpty {
