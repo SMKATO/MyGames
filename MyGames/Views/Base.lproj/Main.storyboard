@@ -218,9 +218,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="jLR-wD-r5u">
-                                <rect key="frame" x="16" y="266" width="361" height="511"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Oog-dS-qgz">
                                 <rect key="frame" x="40" y="208" width="313" height="54"/>
                                 <subviews>
@@ -296,6 +293,9 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="jLR-wD-r5u">
+                                <rect key="frame" x="16" y="272" width="361" height="505"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SIr-NC-OiL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -305,7 +305,7 @@
                             <constraint firstItem="cx4-WL-70t" firstAttribute="top" secondItem="SIr-NC-OiL" secondAttribute="top" constant="20" id="9xe-9z-iBQ"/>
                             <constraint firstItem="qyk-w3-U5H" firstAttribute="top" secondItem="cx4-WL-70t" secondAttribute="bottom" constant="8" id="CIn-Mj-qMT"/>
                             <constraint firstItem="tXY-mj-abw" firstAttribute="top" secondItem="qyk-w3-U5H" secondAttribute="bottom" constant="6" id="G52-ka-v5i"/>
-                            <constraint firstItem="jLR-wD-r5u" firstAttribute="top" secondItem="Oog-dS-qgz" secondAttribute="bottom" constant="4" id="L4x-Ot-H4f"/>
+                            <constraint firstItem="jLR-wD-r5u" firstAttribute="top" secondItem="Oog-dS-qgz" secondAttribute="bottom" constant="10" id="L4x-Ot-H4f"/>
                             <constraint firstItem="jLR-wD-r5u" firstAttribute="leading" secondItem="SIr-NC-OiL" secondAttribute="leading" constant="16" id="M6V-BI-kzU"/>
                             <constraint firstItem="SIr-NC-OiL" firstAttribute="trailing" secondItem="qyk-w3-U5H" secondAttribute="trailing" constant="16" id="PmH-KD-Sko"/>
                             <constraint firstItem="SIr-NC-OiL" firstAttribute="trailing" secondItem="tXY-mj-abw" secondAttribute="trailing" constant="16" id="Uoz-ox-ZRZ"/>

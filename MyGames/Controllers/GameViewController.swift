@@ -17,9 +17,6 @@ class GameViewController: UIViewController {
     
     var game: Game!
     
-    let fullStarImage = UIImage(named: "star-selected")
-    let emptyStarImage = UIImage(named: "star-not-selected")
-    
     override func viewDidLoad() {
         super.viewDidLoad()  
     }
@@ -27,11 +24,11 @@ class GameViewController: UIViewController {
     @IBAction func starButtonTapped(_ sender: UIButton) {
         print("Rated \(sender.tag) stars.")
         
-        for button in starButton {
-            if button.tag <= sender.tag {
-                button.setBackgroundImage(UIImage.init(named: "star-selected"), for: .normal)
+        for (index, button) in starButton.enumerated() {
+            if index <= sender.tag {
+                button.setBackgroundImage(UIImage(named: "star-selected"), for: .normal)
             } else {
-                button.setBackgroundImage(UIImage.init(named: "star-not-selected"), for: .normal)
+                button.setBackgroundImage(UIImage(named: "star-not-selected"), for: .normal)
             }
         }
     }

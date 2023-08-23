@@ -8,7 +8,6 @@
 import UIKit
 import CoreData
 
-
 class GamesTableViewController: UITableViewController {
     
     var fetchedResultController: NSFetchedResultsController<Game>!
